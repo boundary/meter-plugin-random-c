@@ -5,7 +5,7 @@
    "unsupportedPlatforms": [],
    "tags" : ["example", "c", "random"],
    "description": "Example plugin that shows how to write a meter plugin in C by generating random data from a configured range",
-   "icon": "icon.png",
+   "icon": "random.png",
    "command": "./random",
    "postExtract": "",
    "metrics": [
