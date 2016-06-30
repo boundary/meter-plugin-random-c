@@ -52,8 +52,8 @@
        "title": "Interval",
        "name": "interval",
        "description": "How often to send measurement in seconds",
-       "type": "int",
-       "default": "5",
+       "type": "integer",
+       "default": 5,
        "required": true
      }
    ]
