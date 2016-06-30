@@ -10,12 +10,12 @@ Generates random data with a specified upper and lower limit.
 |:----------|:-----:|:-------:|:-------:|:----:|
 | Supported |   v   |    v    |    v    |  v   |
 
-* 
-* This plugin is compatible with Kafka 0.8.2 or later.
+- TrueSight Pulse Meter SDK for C
 
 ### Plugin Setup
 
-None
+For this plugin to run the [TrueSight Pulse Meter SDK for C](https://github.com/boundary/meter-plugin-sdk-c) must
+be installed on the same host where the plugin is running.
 
 ### Plugin Configuration Fields
 
