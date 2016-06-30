@@ -1,0 +1,54 @@
+{
+   "name": "Random",
+   "version": "1.0.0",
+   "meterVersionRequired": "4.2.0-611",
+   "unsupportedPlatforms": [],
+   "tags" : ["example", "c", "random"],
+   "description": "Example plugin that shows how to write a meter plugin in C by generating random data from a configured range",
+   "icon": "random.png",
+   "command": "./random",
+   "postExtract": "",
+   "metrics": [
+       "EXAMPLE_RANDOM"
+    ],
+   "dashboards": [
+      {
+        "name": "Example Random",
+        "layout": "d-w=1&d-h=1&d-pad=5&d-light=0&d-bg=none&d-g-EXAMPLE_RANDOM=0-0-1-1"
+      }
+    ],
+   "paramSchema": [
+     {
+       "title": "Minimum",
+       "name": "min",
+       "description": "Lower limit on the random number generated.",
+       "type": "integer",
+       "default": 1,
+       "required": true
+     },
+     {
+       "title": "Maximum",
+       "name": "max",
+       "description": "Upper limit on the random number generated.",
+       "type": "integer",
+       "default": 10,
+       "required": true
+     },
+     {
+       "title": "Source",
+       "name": "source",
+       "description": "Source to use for measurements",
+       "type": "string",
+       "default": "Random",
+       "required": true
+     },
+     {
+       "title": "Interval",
+       "name": "interval",
+       "description": "How often to send measurement in seconds",
+       "type": "int",
+       "default": "5",
+       "required": true
+     }
+   ]
+}
