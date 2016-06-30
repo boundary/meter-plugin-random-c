@@ -6,7 +6,7 @@
    "tags" : ["example", "c", "random"],
    "description": "Example plugin that shows how to write a meter plugin in C by generating random data from a configured range",
    "icon": "random.png",
-   "command": "/usr/bin/plugin-random",
+   "command": "/usr/local/bin/plugin-random",
    "postExtract": "",
    "metrics": [
        "EXAMPLE_RANDOM"
